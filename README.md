@@ -12,9 +12,9 @@ Web accessibility is an increasingly important consideration for businesses. It 
 
 ___
 ## User Story 
-AS A marketing agency,
-I WANT a codebase that follows accessibility standards,
-SO THAT our own site is optimized for search engines.*[1]*
+* AS A marketing agency,
+* I WANT a codebase that follows accessibility standards,
+* SO THAT our own site is optimized for search engines.*[1]*
 
 ___
 ## Acceptance Criteria
