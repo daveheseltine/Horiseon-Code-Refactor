@@ -36,7 +36,7 @@ The following image and information was given to show the desired output from th
 
 ___
 ## URL
-* The URL of the deployed application: 
+* The URL of the deployed application: https://lulose.github.io/01-Challenge/
 * The URL of the GitHub Repository: https://github.com/lulose/01-Challenge
 
 ___
