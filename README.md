@@ -1,8 +1,12 @@
 # Horiseon Code Refactor
 **(Trilogy Skills Bootcamp: Week 01 - Challenge)**
 
+</br>
+
 **Student**
 * David Heseltine
+
+</br>
 
 ## Table of Contents
 **Design Prompt**
@@ -17,6 +21,8 @@
 
 **References**
 * [References](#References)
+
+</br>
 
 ___
 # Design Prompt
