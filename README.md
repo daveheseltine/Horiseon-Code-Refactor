@@ -1,19 +1,25 @@
-# Horiseon Code Refactor (Trilogy Skills Bootcamp: Week 01 - Challenge)
+# Horiseon Code Refactor
+**(Trilogy Skills Bootcamp: Week 01 - Challenge)**
 
-## Important Note
-Locally the project ran fine with linking resources such as:
-> link rel="stylesheet" type="text/css" href="./assets/css/style.css"
-
-However GitHub Pages was not functioning with said links, and was edited to be linked as:
-> link rel="stylesheet" type="text/css" href="../horiseon-code-refactor/assets/css/style.css"
-
-___
-## Student
+**Student**
 David Heseltine
 
-</br>
+## Table of Contents
+**Design Prompt**
+* [Description](#Description)
+* [User Story](#User-Story)
+* [Acceptance Criteria](#Acceptance-Criteria)
+* [Mock-up](#Mock-up)
+
+**Deployment**
+* [URL](#URL)
+* [License](#License)
+
+**References**
+* [References](#References)
 
 ___
+# Design Prompt
 ## Description
 This week's challenge was an on-the-job ticket, which meant we began with a starter code to modify. The challenged was focussed on the very important aspect of web development of 'accessibility'.
 
@@ -21,7 +27,6 @@ Web accessibility is an increasingly important consideration for businesses. It 
 
 </br>
 
-___
 ## User Story 
 
 ```md
@@ -33,7 +38,6 @@ SO THAT our own site is optimized for search engines.
 
 </br>
 
-___
 ## Acceptance Criteria
 The website must meet accessibility standards. It can be achieved by completing the following:
 
@@ -45,7 +49,6 @@ The website must meet accessibility standards. It can be achieved by completing 
 
 </br>
 
-___
 ## Mock-up
 The following image and information was given to show the desired output from the challenge:
 
@@ -56,9 +59,35 @@ The following image and information was given to show the desired output from th
 </br>
 
 ___
+# Deployment
 ## URL
 * The URL of the deployed application: https://daveheseltine.github.io/Horiseon-Code-Refactor/
 * The URL of the GitHub Repository: https://github.com/daveheseltine/Horiseon-Code-Refactor
+
+</br>
+
+## License
+MIT License
+
+Copyright (c) 2023 Dave Heseltine
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 </br>
 
