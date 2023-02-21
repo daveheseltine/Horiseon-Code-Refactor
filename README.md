@@ -1,10 +1,5 @@
 # Horiseon Code Refactor
-**(Trilogy Skills Bootcamp: Week 01 - Challenge)**
-
-</br>
-
-**Student**
-* David Heseltine
+**(Trilogy Skills Bootcamp: Week 01 - Challenge)** by David Heseltine
 
 </br>
 
