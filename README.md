@@ -2,7 +2,7 @@
 **(Trilogy Skills Bootcamp: Week 01 - Challenge)**
 
 **Student**
-David Heseltine
+* David Heseltine
 
 ## Table of Contents
 **Design Prompt**
