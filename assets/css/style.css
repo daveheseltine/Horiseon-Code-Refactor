@@ -1,140 +1,134 @@
-* {
+  /* Selects all elements: */
+  * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+  }
 
-body {
+  /* Selects <body> element: */
+  body {
     background-color: #d9dcd6;
-}
+  }
 
-.header {
+  /* Selects all class:"header"-tagged elements: */
+  .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-/* Added 'display: inline-block' and 'width: 100%' to align the nav-bar correctly. */
+    /* Added 'display: inline-block' and 'width: 100%' to align the nav-bar correctly. */
     display: inline-block;
     width: 100%;
-}
+  }
 
-.header h1 {
+  /* Selects all <h1> elements inside class:"header"-tagged elements: */
+  .header h1 {
     display: inline-block;
     font-size: 48px;
-}
+  }
 
-.header h1 .seo {
+  /* Selects all class:"seo"-tagged elements inside <h1> elements inside class:"header"-tagged elements: */
+  .header h1 .seo {
     color: #d9dcd6;
-}
+  }
 
-.header nav {
+  /* Selects all <nav> elements inside class:"header"-tagged elements: */
+  .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+  }
 
-.header nav ul {
+  /* Selects all <ul> elements inside <nav> elements inside class:"header"-tagged elements: */
+  .header nav ul {
     list-style-type: none;
-}
+  }
 
-.header nav ul li {
+  /* Selects all <li> elements inside <ul> elements inside <nav> elements inside class:"header"-tagged elements: */
+  .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+  }
 
-a {
+  /* Selects all <a> elements: */
+  a {
     color: #ffffff;
     text-decoration: none;
-}
+  }
 
-p {
+  /* Selects all <p> elements: */
+  p {
     font-size: 16px;
-}
+  }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
+  /* Selects all class:"float-left"-tagged elements: */
+  .float-left {
     float: left;
     margin-right: 25px;
-}
+  }
 
-.float-right {
+  /* Selects all class:"float-right"-tagged elements: */
+  .float-right {
     float: right;
     margin-left: 25px;
-}
+  }
 
-.content {
+  /* Selects all class:"content"-tagged elements: */
+  .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
+  }
 
-/* SECTION */
-.search-engine-optimization {
+  /* Selects all class:"hero"-tagged elements: */
+  .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../img/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+/* SECTION: */
+  /* Selects all elements that are
+    class:"search-engine-optimization"-tagged, 
+    class:"online-reputation-management"-tagged, and/or
+    class:"social-media-marketing"-tagged:
+  */
+  .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    min-height: 300px;
+    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+  }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    min-height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    min-height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+  /* Selects all elements that are
+    <img> elements inside class:"search-engine-optimization"-tagged elements, 
+    <img> elements inside class:"online-reputation-management"-tagged elements, and/or
+    <img> elements inside class:"social-media-marketing"-tagged elements:
+  */
+  .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
-}
+  }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+  /* Selects all elements that are
+    <h2> elements inside class:"search-engine-optimization"-tagged elements, 
+    <h2> elements inside class:"online-reputation-management"-tagged elements, and/or
+    <h2> elements inside class:"social-media-marketing"-tagged elements:
+  */
+  .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+  }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* ASIDE */
-.benefits {
+/* ASIDE: */
+  /* Selects all class:"benefits"-tagged elements: */
+  .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -143,64 +137,50 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+  }
 
-.benefit-lead {
+  /* Selects all elements that are
+    class:"benefit-lead"-tagged, 
+    class:"benefit-brand"-tagged, and/or
+    class:"benefit-cost"-tagged:
+  */
+  .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+  }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+  /* Selects all elements that are
+    <h3> elements inside class:"benefit-lead"-tagged elements, 
+    <h3> elements inside class:"benefit-brand"-tagged elements, and/or
+    <h3> elements inside class:"benefit-cost"-tagged elements:
+  */
+  .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+  /* Selects all elements that are
+    <img> elements inside class:"benefit-lead"-tagged elements, 
+    <img> elements inside class:"benefit-brand"-tagged elements, and/or
+    <img> elements inside class:"benefit-cost"-tagged elements:
+  */
+  .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+  }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* FOOTER */
-.footer {
+/* FOOTER: */
+  /* Selects all class:"footer"-tagged elements: */
+  .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
+  }
 
-.footer h2 {
+  /* Selects all <h2> elements inside class:"footer"-tagged elements: */
+  .footer h2 {
     font-size: 20px;
-}
+  }
