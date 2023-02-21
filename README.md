@@ -1,8 +1,6 @@
 # Horiseon Code Refactor
 **(Trilogy Skills Bootcamp: Week 01 - Challenge)** by David Heseltine
 
-</br>
-
 ## Table of Contents
 **Design Prompt**
 * [Description](#Description)
